@@ -55,3 +55,9 @@
 //if (name != null) {
 //    alert(name);
 //}
+
+function hello(name) {
+    alert("hello " + name);
+}
+hello("Tom");
+hello("Bob");

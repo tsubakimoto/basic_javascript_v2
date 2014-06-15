@@ -44,8 +44,13 @@
 //} else {
 //    alert("ng");
 //}
-var name = prompt("お名前は？", "名無しさん");
-if (name != null) {
-    alert(name);
+//var name = prompt("お名前は？", "名無しさん");
+//if (name != null) {
+//    alert(name);
+//}
+function hello(name) {
+    alert("hello " + name);
 }
+hello("Tom");
+hello("Bob");
 //# sourceMappingURL=myscript.js.map
